@@ -1,0 +1,21 @@
+{
+  "id": "projectsight-checklist-connector",
+  "name": "ProjectSight Checklist Connector",
+  "version": "1.0.0",
+  "description": "Erstellt Checklisten in ProjectSight aus Trimble Connect 3D Viewer Eigenschaften",
+  "entryPoint": "http://localhost:5173",
+  "extensionPoints": [
+    {
+      "name": "ViewerSidePanel",
+      "label": "ProjectSight Checklists"
+    },
+    {
+      "name": "ProjectDashboard",
+      "label": "ProjectSight Dashboard"
+    }
+  ],
+  "permissions": [
+    "accesstoken",
+    "project.read"
+  ]
+}
